@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+video, canvas {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#prediction {
+    font-size: 1.5em;
+    color: green;
+}
